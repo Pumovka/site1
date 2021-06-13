@@ -1,0 +1,252 @@
+* {
+    font-family: 'Segou UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 34px;
+    color: #303842;
+
+}
+
+h2:hover {
+    color: black;
+}
+
+p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: #303842;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    height: 62px;
+    position: fixed;
+ 
+}
+
+
+
+
+
+/*Main Head Start*/
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: tomato;
+}
+
+nav a {
+    margin: 0 10px 0 10px;
+}
+
+nav a:hover {
+    color: tomato;
+
+}
+
+.bcg_head {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 812px;
+    background-image: url(img/bcg_head.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.bcg_head h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 56px;
+}
+
+.bcg_head p {
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.bcg_head a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 136px;
+    height: 40px;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.bcg_head a:hover {
+    color: white;
+    background-color: tomato;
+}
+
+.M_block {
+    margin: 100px 390px;
+}
+
+/*Catalog Start*/
+#Catalog {
+    background-color: #fbfbfb;
+}
+
+#Catalog a {
+    padding: 15px 20px;
+    border-radius: 30px;
+}
+
+#Catalog a:hover {
+    background-color: tomato;
+    color: white;
+}
+
+.headCatalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CatalogP {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*product css*/
+.product {
+    width: 300px;
+    height: 500px;
+    background: white;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+}
+
+.product:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5), 0 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.product h3 {
+    font-weight: 300;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: tomato;
+    border-radius: 30px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 20px;
+    border-left: 1px solid white;
+}
+
+.price:hover {
+    border-left: 1px solid tomato;
+}
+
+.price,
+p {
+    margin-left: 15px;
+}
+
+.statsInf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    background-image: url(img/1.jpg);
+margin: 20px;
+}
+
+.statsInf p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, .5);
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+
+}
+
+.statsInf p:hover {
+    background-color: rgba(0, 0, 0, .7);
+}
+.RF_p{
+display: flex;
+flex-direction: row;
+}
+/*progressbar START*/
+.progressbar {
+    width: 20px;
+    height: 20px;
+    background: tomato;
+    margin-top: 20px;
+}
+.progressbar:hover {
+    width: 1920px;
+    transition: 5s;
+}
+/*progressbar END*/
+footer{
+    padding: 0 200px;
+    background-color: #fbfbfb;
+    margin-top: 50px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer p{
+    font-size: 20px;
+
+}
+footer p:hover{
+   color: tomato;
+}
+.footNavO{
+margin: 0 10px;
+}
+.footNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
